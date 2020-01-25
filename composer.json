@@ -1,0 +1,37 @@
+{
+    "name": "cakasim/payone-sdk-credit-card",
+    "description": "Credit card payment extension of the SDK for PAYONE payment integration.",
+    "type": "library",
+    "keywords": [
+        "payone",
+        "payment",
+        "sdk",
+        "credit card"
+    ],
+    "homepage": "https://cakasim.de",
+    "readme": "README.md",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fabian Böttcher",
+            "email": "me@cakasim.de",
+            "homepage": "https://cakasim.de",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "support@cakasim.de",
+        "issues": "https://github.com/Cakasim/php-payone-sdk-credit-card/issues",
+        "source": "https://github.com/Cakasim/php-payone-sdk-credit-card"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.1",
+        "cakasim/payone-sdk": "dev-develop"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cakasim\\Payone\\Sdk\\Payment\\CreditCard\\": "src/"
+        }
+    }
+}
